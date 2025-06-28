@@ -1,24 +1,36 @@
 TailorTalk Booking Agent
+
 An AI-powered booking assistant that integrates with Google Calendar to help manage appointments and bookings through a conversational interface.
 Features
 
 🤖 AI-Powered Chat Interface - Natural language booking conversations using Groq API
+
 📅 Google Calendar Integration - Seamless appointment scheduling and management
+
 🎯 Smart Agent System - LangGraph-powered agent for intelligent booking workflows
+
 ⚡ FastAPI Backend - High-performance REST API for booking operations
+
 🎨 Streamlit Frontend - User-friendly chat interface for customers
+
 🔄 Real-time Availability - Live calendar availability checking
+
 📱 Session Management - Persistent conversation tracking
 
 Technology Stack
 
-Backend: FastAPI, Python 3.8+
+Backend: FastAPI, Python 
+
 AI/ML: Groq API, LangGraph
+
 Calendar: Google Calendar API
+
 Frontend: Streamlit
+
 Authentication: Google OAuth 2.0
 
 Project Structure
+
 tailortalk-booking-agent/
 ├── app/
 │   ├── main.py                 # FastAPI main application
@@ -45,9 +57,13 @@ Git
 Installation
 1. Clone the Repository
    https://github.com/Shirisha-16/AI-Booking-Assistant.git
+   
    cd AI-Booking-Assistant
+   
    2. Create Virtual Environment
-bashpython -m venv venv
+      
+In bash
+python -m venv venv
 
 # On Windows
 venv\Scripts\activate
